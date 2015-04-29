@@ -1,0 +1,18 @@
+Please execute the steps below to deploy the solution for defect 151 email verbiage. 
+
+
+1. Open Unix, and move package in the XXNBTY_VCP_SEND_EMAIL_PKG.pkb in the /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql and execute the command below. 
+
+
+sqlplus -s USERNAME/PASSWORD
+
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_VCP_SEND_EMAIL_PKG.pkb
+
+
+
+2. In the Unix move the XXNBTYVCPSENDEMAIL.prog in the /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/bin and execute the command below to convert the dos2unix file format. 
+
+
+dos2unix XXNBTYVCPSENDEMAIL.prog
+
+
